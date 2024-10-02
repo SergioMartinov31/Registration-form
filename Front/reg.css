@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("/Users/sergejmartynov/Documents/programing/Front/media/7270229.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom:1px;
+}
+
+.logo h3 {   
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.logo h2{
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+
+label {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #547ba5;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #7092e7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #4373db;
+}
+
+.registration-form p{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(163, 163, 163);
+}
